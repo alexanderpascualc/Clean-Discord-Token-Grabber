@@ -19,7 +19,7 @@ class Builder:
             exit()
 
         self.webhook = input(
-            f"{Fore.GREEN}[{Fore.RESET}+{Fore.GREEN}]{Fore.RESET} Enter your webhook: https://discord.com/api/webhooks/1429471229915566160/gJHtBb8A0lEhvWy3lkH-lJPhHHsRrOh1Vj-mp6wUTs4TBBWsoJwUdMYle3uMRIhjrZra"
+            f"{Fore.GREEN}[{Fore.RESET}+{Fore.GREEN}]{Fore.RESET} Enter your webhook: "
         )
         if not self.check_webhook(self.webhook):
             print(
